@@ -5,10 +5,13 @@
 #ifndef APPOINTMENT_BOOKING_SYSTEM_BUSINESS_H
 #define APPOINTMENT_BOOKING_SYSTEM_BUSINESS_H
 
+#include "../time/time.h"
+
 typedef struct Business{
     char name[30];
-    int start_time;
-    int close_time;
+    Time start_time;
+    Time close_time;
+    WorkWeek* week;
 } Business;
 
 #endif //APPOINTMENT_BOOKING_SYSTEM_BUSINESS_H

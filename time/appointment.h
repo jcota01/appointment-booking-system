@@ -5,8 +5,13 @@
 #ifndef APPOINTMENT_BOOKING_SYSTEM_APPOINTMENT_H
 #define APPOINTMENT_BOOKING_SYSTEM_APPOINTMENT_H
 
-typedef struct Client_Appointment{
+#include "time.h"
+#include "../client/client.h"
 
+typedef struct Client_Appointment{
+    Time start_time;
+    Time end_time;
+    Client client;
 } Appt;
 
 #endif //APPOINTMENT_BOOKING_SYSTEM_APPOINTMENT_H
