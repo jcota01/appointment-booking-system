@@ -1,0 +1,12 @@
+//
+// Created by c0025512 on 23/05/2023.
+//
+
+#ifndef APPOINTMENT_BOOKING_SYSTEM_CLIENT_H
+#define APPOINTMENT_BOOKING_SYSTEM_CLIENT_H
+
+typedef struct Client{
+
+} Client;
+
+#endif //APPOINTMENT_BOOKING_SYSTEM_CLIENT_H

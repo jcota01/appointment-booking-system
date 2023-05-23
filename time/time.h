@@ -1,0 +1,12 @@
+//
+// Created by c0025512 on 23/05/2023.
+//
+
+#ifndef APPOINTMENT_BOOKING_SYSTEM_TIME_H
+#define APPOINTMENT_BOOKING_SYSTEM_TIME_H
+
+typedef struct Time{
+
+} Time;
+
+#endif //APPOINTMENT_BOOKING_SYSTEM_TIME_H
