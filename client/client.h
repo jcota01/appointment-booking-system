@@ -6,7 +6,10 @@
 #define APPOINTMENT_BOOKING_SYSTEM_CLIENT_H
 
 typedef struct Client{
-
+    char* Name;
 } Client;
+
+Client* initialiseClient(Client* client, char* name);
+void freeClient(Client* client);
 
 #endif //APPOINTMENT_BOOKING_SYSTEM_CLIENT_H

@@ -1,7 +1,8 @@
 #include <stdio.h>
-
+#include "business/business.h"
 
 int main() {
-    printf("Hello, World!\n");
+    Business* business = initialiseBusiness(NULL);
+
     return 0;
 }

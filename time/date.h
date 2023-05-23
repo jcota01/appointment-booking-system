@@ -38,4 +38,7 @@ typedef struct Date{
     int year;
 } Date;
 
+Date* initialiseDate(Date* date);
+void freeDate(Date* date);
+
 #endif //APPOINTMENT_BOOKING_SYSTEM_DATE_H
